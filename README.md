@@ -4,7 +4,7 @@
 
 ## Databases 
 
-### Count number of database
+### Count number of databases
 ```sql
 SELECT count(DISTINCT(table_schema)) FROM information_schema.tables; 
 ```
